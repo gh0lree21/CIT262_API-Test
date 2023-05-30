@@ -1,0 +1,23 @@
+{
+  "name": "cit262_api-test",
+  "version": "1.0.0",
+  "description": "Automating an API Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gh0lree21/CIT262_API-Test.git"
+  },
+  "author": "Grant Holley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gh0lree21/CIT262_API-Test/issues"
+  },
+  "homepage": "https://github.com/gh0lree21/CIT262_API-Test#readme",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "node-fetch2": "^1.6.3"
+  }
+}
