@@ -6,5 +6,7 @@ COPY package.json ./
 
 RUN npm install
 
+EXPOSE 3000
+
 # What happens when you run the docker file
 CMD ["node", "server.js"]
