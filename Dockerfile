@@ -2,7 +2,10 @@
 # This tells it to download alpine. 
 FROM node:alpine
 
+#     copy this    from current directory
 COPY package.json ./
+
+COPY server.js ./
 
 RUN npm install
 
